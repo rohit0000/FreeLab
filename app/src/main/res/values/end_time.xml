@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="end_time_array">
+        <item>0900</item>
+        <item>1045</item>
+        <item>1230</item>
+        <item>1415</item>
+        <item>1600</item>
+        <item>1745</item>
+        <item>1930</item>
+        <item>2110</item>
+    </string-array>
+    <string-array name="end_time2_array">
+        <item>1045</item>
+        <item>1230</item>
+        <item>1415</item>
+        <item>1600</item>
+        <item>1745</item>
+        <item>1930</item>
+        <item>2110</item>
+    </string-array>
+    <string-array name="end_time3_array">
+        <item>1230</item>
+        <item>1415</item>
+        <item>1600</item>
+        <item>1745</item>
+        <item>1930</item>
+        <item>2110</item>
+    </string-array>
+    <string-array name="end_time4_array">
+        <item>1415</item>
+        <item>1600</item>
+        <item>1745</item>
+        <item>1930</item>
+        <item>2110</item>
+    </string-array>
+    <string-array name="end_time5_array">
+        <item>1600</item>
+        <item>1745</item>
+        <item>1930</item>
+        <item>2110</item>
+    </string-array>
+    <string-array name="end_time6_array">
+        <item>1745</item>
+        <item>1930</item>
+        <item>2110</item>
+    </string-array>
+    <string-array name="end_time7_array">
+        <item>1930</item>
+        <item>2110</item>
+    </string-array>
+    <string-array name="end_time8_array">
+        <item>2110</item>
+    </string-array>
+</resources>

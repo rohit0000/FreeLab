@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rohit.freelab2.Main3Activity">
+    <com.darwindeveloper.horizontalscrollmenulibrary.custom_views.HorizontalScrollMenuView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu"
+        app:icon_height="0dp"
+        app:icon_width="0dp"
+        >
+
+    </com.darwindeveloper.horizontalscrollmenulibrary.custom_views.HorizontalScrollMenuView>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+
+
+
+        <!--<Button-->
+        <!--android:id="@+id/buttonGokongwei"-->
+        <!--android:paddingTop="60dp"-->
+        <!--android:text="GOKONGWEI"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:paddingBottom="60dp"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_weight="1"/>-->
+        <!--&lt;!&ndash;android:drawableTop="@drawable/updatedatabase"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="@string/updatedatabase"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/custombutton"/>&ndash;&gt;-->
+
+        <!--<Button-->
+        <!--android:id="@+id/buttonVelasco"-->
+        <!--android:paddingTop="60dp"-->
+        <!--android:text="VELASCO"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:paddingBottom="60dp"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_weight="1"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Start Time"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="End Time"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonGokongwei"-->
+            <!--android:paddingTop="60dp"-->
+            <!--android:text="GOKONGWEI"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:paddingBottom="60dp"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_weight="1"/>-->
+        <!--&lt;!&ndash;android:drawableTop="@drawable/updatedatabase"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="@string/updatedatabase"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/custombutton"/>&ndash;&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/buttonVelasco"-->
+            <!--android:paddingTop="60dp"-->
+            <!--android:text="VELASCO"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--android:paddingBottom="60dp"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_weight="1"/>-->
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="56dp"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="95dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonGokongwei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GOKONGWEI"
+                android:textColor="#FFFFFF"
+                android:background="@color/cardview_dark_background"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                />
+
+
+            <Button
+                android:id="@+id/buttonVelasco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VELASCO"
+                android:textColor="#FFFFFF"
+                android:background="@color/cardview_dark_background"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/buttonLS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La Salle Hall"
+                android:textColor="#FFFFFF"
+                android:background="@color/cardview_dark_background"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <Button
+                android:id="@+id/buttonOthers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OTHERS"
+                android:textColor="#FFFFFF"
+                android:background="@color/cardview_dark_background"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/listItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="56dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

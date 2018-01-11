@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_array">
+        <item>All</item>
+        <item>0730-0900</item>
+        <item>0915-1045</item>
+        <item>1100-1230</item>
+        <item>1245-1415</item>
+        <item>1430-1600</item>
+        <item>1615-1745</item>
+        <item>1800-1930</item>
+        <item>1940-2110</item>
+    </string-array>
+</resources>

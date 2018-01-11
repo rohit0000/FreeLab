@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rooms_array">
+        <item>All</item>
+        <item>A1706</item>
+        <item>ANOOK</item>
+        <item>C314</item>
+        <item>G302A</item>
+        <item>G302B</item>
+        <item>G304A</item>
+        <item>G304B</item>
+        <item>G306A</item>
+        <item>G306B</item>
+        <item>G404</item>
+        <item>J212</item>
+        <item>L212</item>
+        <item>L229</item>
+        <item>L320</item>
+        <item>L335</item>
+        <item>V103</item>
+        <item>V208A</item>
+        <item>V208B</item>
+        <item>V301</item>
+        <item>V310</item>
+        <item>Y602</item>
+    </string-array>
+</resources>

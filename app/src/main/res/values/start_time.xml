@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="start_time_array">
+        <item>0730</item>
+        <item>0915</item>
+        <item>1100</item>
+        <item>1245</item>
+        <item>1430</item>
+        <item>1615</item>
+        <item>1800</item>
+        <item>1940</item>
+    </string-array>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rohit.freelab2.Buildings">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonGokongwei"
+            android:paddingTop="60dp"
+            android:text="GOKONGWEI"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="60dp"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+        <!--android:drawableTop="@drawable/updatedatabase"-->
+        <!--android:text="@string/updatedatabase"-->
+        <!--android:background="@drawable/custombutton"/>-->
+
+        <Button
+            android:id="@+id/buttonVelasco"
+            android:paddingTop="60dp"
+            android:text="VELASCO"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="60dp"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"/>
+        <!--android:drawableTop="@drawable/showdatabase"-->
+        <!---->
+        <!--android:background="@drawable/custombutton"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAndrew"
+            android:paddingTop="60dp"
+            android:text="ANDREW"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="60dp"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+        <!--android:drawableTop="@drawable/updatedatabase"-->
+        <!--android:text="@string/updatedatabase"-->
+        <!--android:background="@drawable/custombutton"/>-->
+
+        <Button
+            android:id="@+id/buttonLS"
+            android:paddingTop="60dp"
+            android:text="La Salle Hall "
+            android:textColor="#FFFFFF"
+            android:paddingBottom="60dp"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_weight="1"/>
+        <!--android:drawableTop="@drawable/showdatabase"-->
+        <!---->
+        <!--android:background="@drawable/custombutton"/>-->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonOthers"
+
+        android:text="Others"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_weight="1"/>
+
+</LinearLayout>
